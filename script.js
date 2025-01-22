@@ -19,7 +19,7 @@ function reset() {
     seq.forEach((btn, index) => {
         setTimeout(() => {
             btn.classList.remove("bg-red");
-        }, 500 * (index + 1));
+        }, 250 * (index + 1));
     });
     seq = [];
 }
