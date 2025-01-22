@@ -1,0 +1,51 @@
+.nav-bar{
+    background-color: gainsboro;
+    width: 100%;
+    height: 6vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar-right{
+    background-color: rgb(237, 119, 119);
+
+    position: absolute;
+    right: 2vw;
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+
+.nav-bar a{
+    color: black;
+    font-size: large;
+    cursor: pointer;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.boxes{
+    background-color: aqua;
+    height: 48vh;
+    aspect-ratio: 1;
+    margin: 1vw;
+    flex-wrap: wrap;
+}
+.box2{
+    flex-shrink: 1;
+}
+.box3{
+    flex-shrink: 1;
+}
+.box1{
+    flex-shrink: 0;
+}
